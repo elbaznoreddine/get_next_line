@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: noel-baz <noel-baz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/27 02:52:54 by noel-baz          #+#    #+#             */
-/*   Updated: 2024/12/06 11:10:12 by noel-baz         ###   ########.fr       */
+/*   Created: 2024/12/06 16:17:35 by noel-baz          #+#    #+#             */
+/*   Updated: 2024/12/16 15:51:33 by noel-baz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -100,7 +100,5 @@ char	*ft_strchr(const char *s, int c)
 			return ((char *)s);
 		s++;
 	}
-	if ((char)c == '\0')
-		return ((char *)s);
 	return (NULL);
 }
